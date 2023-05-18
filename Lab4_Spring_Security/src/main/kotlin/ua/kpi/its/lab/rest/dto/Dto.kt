@@ -21,7 +21,7 @@ data class MagazineRequestDto(
     val price: Int,
     val language: String,
     val periodicity: Boolean,
-    val articles: List<Long>
+    val articles: List<ArticleResponseDto>
 
 )
 
